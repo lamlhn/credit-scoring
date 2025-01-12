@@ -18,7 +18,7 @@ import xgboost as xgb
 
 """# New section"""
 
-df = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/CreditScoring.csv')
+df = pd.read_csv('./CreditScoring.csv')
 df.head()
 
 df.columns = df.columns.str.lower()
